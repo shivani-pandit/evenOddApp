@@ -1,0 +1,49 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ff6e7f;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 35px;
+  color: #0f172a;
+  text-align: center;
+}
+.para {
+  font-family: Roboto;
+  font-size: 35px;
+  color: #334155;
+  text-align: center;
+}
+.button {
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+}
+.description {
+  font-family: Roboto;
+  font-size: 35px;
+  color: #1e293b;
+  text-align: center;
+}
