@@ -1,49 +1,45 @@
-.bg-container {
-  background-color: #ffffff;
-  background-size: cover;
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-.card {
-  background-color: #ff6e7f;
-  width: 60%;
+
+.count-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
   border-radius: 12px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
 }
-.heading {
-  font-family: Roboto;
-  font-size: 35px;
+
+.count {
   color: #0f172a;
-  text-align: center;
+  font-size: 32px;
 }
-.para {
-  font-family: Roboto;
-  font-size: 35px;
+
+.number-category {
   color: #334155;
-  text-align: center;
+  font-size: 20px;
 }
-.button {
+
+.increment-button {
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #ffffff;
   border-radius: 8px;
-  padding-left: 16px;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-right: 16px;
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-bottom: 12px;
-  outline: none;
-  cursor: pointer;
-  color: #000000;
 }
-.description {
-  font-family: Roboto;
-  font-size: 35px;
-  color: #1e293b;
-  text-align: center;
+
+.note {
+  color: #334155;
+  font-size: 10px;
 }
